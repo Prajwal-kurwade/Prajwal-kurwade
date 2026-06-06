@@ -91,27 +91,7 @@
 
 ---
 
-## 🐍 Contribution Snake
 
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Prajwal-kurwade
-          outputs: dist/github-contribution-grid-snake.svg
-```
-
----
 
 ### ⭐ Thanks for visiting my profile!
 
